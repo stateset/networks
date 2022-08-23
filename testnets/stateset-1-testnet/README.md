@@ -1,4 +1,4 @@
-# Stateset - stateset-1-testner Testnet
+# Stateset - stateset-1-testnet Testnet
 
 The plan for this testnet is to simulate stateset `v0.0.1`
 
@@ -128,3 +128,5 @@ Below are the instructions to generate & submit your genesis transaction
 - Commit and push to your repo
 - Create a PR onto https://github.com/stateset/networks
 - Only PRs from individuals / groups with a history successfully running nodes will be accepted. This is to ensure the network successfully starts on time.
+
+
