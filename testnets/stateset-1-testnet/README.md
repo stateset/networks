@@ -53,7 +53,7 @@ source .profile
 ```sh
 git clone https://github.com/stateset/core
 cd core
-git checkout v1.0.0
+git checkout v0.0.8
 make build && make install
 ```
 
