@@ -1,6 +1,6 @@
 # Stateset - stateset-1-testnet Testnet
 
-The plan for this testnet is to simulate stateset `v0.0.1`
+The plan for this testnet is to simulate stateset `v0.0.8`
 
 ## First!
 
@@ -90,7 +90,7 @@ Below are the instructions to generate & submit your genesis transaction
    > statesetd keys add <key-name>
    ```
 
-3. Add your account to your local genesis file with a given amount and the key you just created. Use only `10000000000ustate`, other amounts will be ignored.
+3. Add your account to your local genesis file with a given amount and the key you just created.
 
    ```bash
    statesetd add-genesis-account $(statesetd keys show <key-name> -a) 10000000000ustate
