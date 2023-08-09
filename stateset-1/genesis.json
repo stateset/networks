@@ -45,7 +45,21 @@
         "send_enabled": [],
         "default_send_enabled": true
       },
-      "balances": [],
+      "balances": [
+        {
+          "address": "stateset19l000fmstagc63xxtghj5lp3epdmlr7dhwcuj0",
+          "coins": [
+            {
+              "amount": "2800000000",
+              "denom": "state"
+            },
+            {
+              "amount": "2800000000",
+              "denom": "stake"
+            }
+          ]
+        }
+      ],
       "supply": [],
       "denom_metadata": []
     },
