@@ -52,6 +52,10 @@
             {
               "amount": "2800000000",
               "denom": "state"
+            },
+            {
+              "amount": "2800000000",
+              "denom": "stake"
             }
           ]
         },
@@ -61,6 +65,10 @@
             {
               "amount": "3400000000",
               "denom": "state"
+            },
+            {
+              "amount": "3400000000",
+              "denom": "stake"
             }
           ]
         }
@@ -74,7 +82,7 @@
     },
     "crisis": {
       "constant_fee": {
-        "denom": "state",
+        "denom": "stake",
         "amount": "1000"
       }
     },
@@ -115,7 +123,7 @@
       "deposit_params": {
         "min_deposit": [
           {
-            "denom": "state",
+            "denom": "stake",
             "amount": "10000000"
           }
         ],
@@ -181,7 +189,7 @@
         "annual_provisions": "0.000000000000000000"
       },
       "params": {
-        "mint_denom": "state",
+        "mint_denom": "stake",
         "inflation_rate_change": "0.130000000000000000",
         "inflation_max": "0.200000000000000000",
         "inflation_min": "0.070000000000000000",
@@ -215,7 +223,7 @@
         "max_validators": 100,
         "max_entries": 7,
         "historical_entries": 10000,
-        "bond_denom": "state"
+        "bond_denom": "stake"
       },
       "last_total_power": "0",
       "last_validator_powers": [],
