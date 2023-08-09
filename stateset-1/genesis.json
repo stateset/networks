@@ -50,7 +50,7 @@
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
           "address": "stateset13ah0fmh6add38j6wz53kk0ulrdpfcpalwxwzqw",
           "pub_key": null,
-          "account_number": "0",
+          "account_number": "1",
           "sequence": "0"
         }
       ]
